@@ -71,11 +71,18 @@ print(nomes_alunos[4])
 
 # missão 9
 
-Número = int(input('Valor:'))
-print(Número * 2)
 
+def dobro(number):
+    return number*2
+
+
+print(dobro(15))
 
 # missão 10
 
-nome = 'Ana'
-print(len(nome))
+
+def contagem_caracteres(nome):
+    return f'O nome {nome} tem {len(nome)} letras'
+
+
+print(contagem_caracteres('Ana'))
